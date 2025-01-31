@@ -8,7 +8,7 @@ app.use(cors());
 
 // MySQL connection
 const connection = mysql.createConnection({
-  host: 'examdatabase.cluk60aaw3od.ap-south-1.rds.amazonaws.com', // from AWS RDS
+  host: 'examdatabase.cluk60aaw3od.ap-south-1.rds.amazonaws.com', 
   user: 'admin',
   password: 'examroot',
   database: 'railwayexam'
